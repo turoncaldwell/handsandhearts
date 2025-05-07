@@ -1,4 +1,5 @@
 <?php
+// Updated by collaborator: Added basic form validation
 // Sanitized: Database credentials removed
 $pdo = new PDO("mysql:host=localhost;dbname=database", "username", "");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
